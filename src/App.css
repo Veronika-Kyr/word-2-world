@@ -1,3 +1,39 @@
 .App {
   text-align: center;
 }
+
+.App .logo {
+  width: 350px;
+  display: block;
+  text-align: left;
+}
+
+.App h1 {
+  font-size: 100px;
+  color: #0002ff;
+}
+
+.App footer {
+  margin-top: 10px;
+  background: #a8a8357c;
+  padding: 30px 0;
+}
+
+.App .App-header {
+  background: #a8a8357c;
+}
+
+.App .par {
+  margin-left: -30px;
+  margin-top: 20px;
+  width: 400px;
+  height: 180px;
+  transform: skew(-20deg);
+  background: white;
+}
+
+.App .greet {
+  margin: 25px 20px 5px 70px;
+  padding: 10px 30px;
+  font-size: 18px;
+}
