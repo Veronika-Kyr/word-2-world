@@ -6,5 +6,10 @@ import "./Dictionary.css";
 export default function Dictionary() {
 
 
-    return
+    return (
+        <form>
+            <input className="wordSearch" type="search" placeholder="A Word You Want" />
+            <input className="btnSearch" type="submit" value="Open" />
+        </form>
+    )
 }
