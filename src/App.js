@@ -17,7 +17,7 @@ function App() {
             <div className="col-sm-9 mt-4 mb-3">
 
               <h1> Dictionary</h1>
-              <p className='greet'>Would You like to open the World of Words or to open the whole World using Words? Or maybe You want to make your own World wider? Let's get use our simple but powerful <strong> Dictionary “Word 2 open World”</strong>.
+              <p className='greet'>Would You like to open the World of Words or to open the whole World using Words? Or maybe You want to make your own World wider? Let's get use our simple but powerful <br /> <strong> Dictionary “Word 2 open World”</strong>.
                 <br /> Think about any Word and Open it definition! Have a nice search!
               </p>
             </div>
