@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import "./Dictionary.css";
 import axios from 'axios';
+import Results from './Results';
 
 
 
 export default function Dictionary() {
     let [word, setWord] = useState("");
+    let [result, setResult] = useState(null);
+
+
     function getWord(event) {
         setWord(event.target.value);
     }
@@ -15,7 +19,7 @@ export default function Dictionary() {
         axios.get(apiUrl).then(getDefinition);
     }
     function getDefinition(response) {
-        console.log(response);
+        setResult(response.data[0]);
     }
 
     return (
@@ -24,6 +28,7 @@ export default function Dictionary() {
                 <input className="wordSearch" type="search" placeholder="A Word You Want" onChange={getWord} />
                 <input className="btnSearch" type="submit" value="Open" />
             </form>
+            <Results resultData={result} />
         </div>
     )
 }

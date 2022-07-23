@@ -1,4 +1,5 @@
 .dictionary {
+    min-height: 500px;
     margin-top: 10px;
     padding: 30px 15px;
     background: #a8a83547;
@@ -6,7 +7,7 @@
 
 .dictionary .wordSearch {
     margin: 10px 20px;
-    padding: 10px;
+    padding: 14px;
     width: 400px;
     border: 2px solid #0002ff;
     font-size: 16px;
@@ -15,9 +16,9 @@
 .dictionary .btnSearch {
     padding: 10px 20px;
     border: 2px solid #0002ff;
-
+    text-align: center;
     color: #0002ff;
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 1.1em;
+    letter-spacing: 1em;
 }

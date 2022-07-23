@@ -1,0 +1,21 @@
+.WordMeaning h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 22px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.WordMeaning .definition {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.WordMeaning .example {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px 30px;
+    border: 1px dotted rgba(0, 2, 255, 0.6);
+}
