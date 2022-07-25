@@ -1,0 +1,9 @@
+.Phonetics {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Phonetics .audio {
+    text-decoration: none;
+    margin-right: 20px;
+}
