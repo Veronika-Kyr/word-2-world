@@ -5,7 +5,6 @@ import "./Results.css";
 
 
 export default function Results(props) {
-    console.log(props.resultData);
     if (props.resultData) {
         return (
             <div className='Results'>
@@ -14,21 +13,17 @@ export default function Results(props) {
                     return (
                         <div key={index}>
                             <Phonetics phoneticData={phonetic} /></div>
-
                     )
                 })}
                 {props.resultData.meanings.map(function (meaning, index) {
-                    return (<div key={index}>
+                    return (<div key={index} className='menSect'>
                         <WordMeaning data={meaning} />
                     </div>);
                 })}
-
-
             </div>
         )
     }
     else {
         return null
     }
-
 }

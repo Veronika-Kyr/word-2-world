@@ -6,3 +6,10 @@
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
+
+.menSect {
+    background: #f9f9f347;
+    padding: 10px 50px;
+    margin: 20px 80px;
+    border-radius: 6px;
+}

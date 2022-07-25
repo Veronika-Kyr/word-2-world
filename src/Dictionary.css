@@ -2,12 +2,13 @@
     min-height: 500px;
     margin-top: 10px;
     padding: 30px 15px;
-    background: #a8a83547;
+    background: #a8a8357c;
 }
 
 .dictionary .wordSearch {
     margin: 10px 20px;
     padding: 14px;
+    border-radius: 3px;
     width: 400px;
     border: 2px solid #0002ff;
     font-size: 16px;
@@ -16,7 +17,9 @@
 .dictionary .btnSearch {
     padding: 10px 20px;
     border: 2px solid #0002ff;
+    border-radius: 3px;
     text-align: center;
+    text-indent: 10px;
     color: #0002ff;
     font-size: 18px;
     text-transform: uppercase;
@@ -28,4 +31,11 @@
     color: red;
     font-size: 26px;
     font-weight: 700;
+}
+
+.suggest {
+    padding-left: 467px;
+    margin-top: -5px;
+    text-align: left;
+    font-size: 14px;
 }
