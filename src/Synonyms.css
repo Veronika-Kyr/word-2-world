@@ -1,0 +1,14 @@
+.Synonyms {
+    text-align: left;
+}
+
+
+
+.Synonyms .synonymList {
+    list-style: none;
+}
+
+.synonymWord {
+    display: inline-block;
+    margin-right: 10px;
+}
