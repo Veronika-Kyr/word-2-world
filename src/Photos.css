@@ -5,9 +5,15 @@
     ;
 }
 
-.Photo section {
+.Photo menSect {
     background: #fffffe47;
     margin: 20px;
     padding: 50px;
     border-radius: 6px;
+}
+
+@media(max-width: 500px) {
+    .Photo img {
+        margin: 5px;
+    }
 }

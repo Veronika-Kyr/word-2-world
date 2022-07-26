@@ -11,6 +11,7 @@
 .App h1 {
   font-size: 100px;
   color: #0002ff;
+  margin-top: 30px !important;
 }
 
 .App footer {
@@ -36,4 +37,42 @@
   margin: 25px 20px 5px 70px;
   padding: 10px 30px;
   font-size: 18px;
+}
+
+@media(max-width: 500px) {
+  .App {
+    min-width: 390px;
+  }
+
+  .App .logo {
+    width: 150px;
+    /* text-align: left; */
+  }
+
+  .App .par {
+    margin-left: 5px;
+    margin-top: 8px;
+    width: 160px;
+    height: 70px;
+    /* transform: skew(-20deg);
+    background: white; */
+  }
+
+  .App h1 {
+    font-size: 50px;
+    margin-top: 5px !important;
+  }
+
+  .App .greet {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .App footer {
+    margin-top: -0.65px;
+    background: #a8a8357c;
+    padding: 18px 0;
+  }
+
 }
