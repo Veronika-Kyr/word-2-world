@@ -46,7 +46,6 @@
 
   .App .logo {
     width: 150px;
-    /* text-align: left; */
   }
 
   .App .par {
@@ -54,8 +53,6 @@
     margin-top: 8px;
     width: 160px;
     height: 70px;
-    /* transform: skew(-20deg);
-    background: white; */
   }
 
   .App h1 {
